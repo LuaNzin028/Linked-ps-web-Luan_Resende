@@ -22,3 +22,14 @@
     outline: 2px solid currentColor;
     outline-offset: 4px;
 }
+@media (max-width: 768px){
+    .site-header{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .site-header ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+}
