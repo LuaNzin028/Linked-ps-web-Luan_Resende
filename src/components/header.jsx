@@ -1,6 +1,9 @@
+import './header.css'
+
 function Header (){
     return(
-    <header>
+    <header className='site-header'>
+      
         <span>Nome / Logo</span>
         <nav>
             <ul>

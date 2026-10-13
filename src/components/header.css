@@ -1,0 +1,24 @@
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+}
+.site-header ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.site-header a{
+    text-decoration: none;
+    color: inherit;
+}
+.site-header a:hover{
+    text-decoration: underline;
+}
+.site-header a:focus-visible{
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
