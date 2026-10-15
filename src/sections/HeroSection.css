@@ -28,6 +28,7 @@
     font-weight: 700;
     line-height: 1;
     letter-spacing: 0;
+    margin: 0 0 24px;
 }
 
 .hero-actions a:focus-visible{
@@ -128,5 +129,14 @@
     }
     .hero-actions a{
         font-size: 18px;
+    }
+}
+
+@media(min-width: 769px){
+    .hero-content{
+        padding-left: 46px;
+    }
+    .hero-details{
+        margin-left: 34px;
     }
 }
