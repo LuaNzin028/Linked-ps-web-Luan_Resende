@@ -4,6 +4,8 @@ import HeroSection from './sections/HeroSection.jsx'
 import Services from './sections/Services.jsx'
 import Hours from './sections/Hours.jsx'
 import Feedbacks from './sections/Feedbacks.jsx'
+import Contact from './sections/Contact.jsx'
+
 function App() {
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
       <Services />
       <Hours />
       <Feedbacks />
+      <Contact />
     </main> 
     </>
     )
