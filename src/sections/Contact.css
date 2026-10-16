@@ -1,0 +1,259 @@
+.contact-section{
+    padding: 64px 48px;
+    color: #004346;
+    background-color: #fff;
+    font-family: var(--heading);
+    background-image: url('/src/assets/images/florcontactesquerda.svg'), url('/src/assets/images/florcontactdireita.svg');
+    background-repeat: no-repeat;
+    background-position: left top , right bottom -200px;
+    background-size: 40% auto, 30% auto;
+}
+
+.contact-info{
+    display: flex;
+    align-items: stretch;
+    gap: 64px;
+    max-width: 1660px;
+    margin-inline: auto;
+}
+
+.contact-address{
+    flex: 0 1 640px;
+    min-width: 0;
+    background-color: #004346;
+    color: #fff;
+    padding: 64px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.contact-address h2{
+    color: inherit;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 40px;
+}
+
+.contact-address address{
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.contact-address address p:last-child{
+    margin-top: 24px;
+}
+
+.contact-address-label{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.contact-address-label img{
+    width: 46px;
+    height: 43px;
+    object-fit: contain;
+}
+
+.contact-map{
+    flex: 1;
+    min-width: 0;
+    position: relative;
+}
+
+.contact-map-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.contact-map-marker{
+    position: absolute;
+    width: 31px;
+    height: auto;
+    left: 40%;
+    top: 48%;
+    transform: translate(-50%, -100%);
+}
+
+.contact-form{
+    max-width: 1176px;
+    margin: 96px auto 0;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid #004346;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255,  0.47);
+}
+
+.contact-form-heading{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.contact-form-heading h2{
+    color: inherit;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    border-right: 1px solid #004346;
+    padding-right: 24px;
+}
+
+.contact-form-heading p{
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.contact-field{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #004346;
+    color: #fff;
+    border-radius: 16px;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+    min-height: 45px;
+    box-sizing: border-box;
+}
+
+.contact-field label{
+    font-size: 24px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.contact-field input{
+    flex: 1;
+    min-width: 0;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    font: inherit;
+    padding: 4px;
+}
+
+.contact-field textarea{
+    flex: 1;
+    min-width: 0;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    font: inherit;
+    padding: 4px;
+    resize: none;
+    
+}
+
+.contact-field input:focus-visible{
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.contact-field textarea:focus-visible{
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.contact-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 32px auto 0;
+   padding: 12px 24px;
+   border: 1px solid #004346;
+   border-radius: 25px;
+   background-color: transparent;
+   color: #004346;
+   font-family: var(--sans);
+   font-size: 36px;
+   line-height: 1.2;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+.contact-button:hover{
+    background-color: #e6f2f2;
+}
+
+.contact-button:focus-visible{
+    outline: 2px solid #004346;
+    outline-offset: 4px;
+}
+
+.contact-button::before{
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.formMessage{
+    text-align: center;
+    margin-top: 16px;
+}
+
+@media (max-width: 768px){
+    .contact-section{
+        padding: 48px 24px;
+        background-size: 65% auto, 60% auto;
+        background-position: left top, right bottom;
+    }
+    .contact-info{
+        gap: 32px;
+        flex-direction: column;
+    }
+    .contact-address{
+        flex: none;
+        padding: 32px 24px;
+    }
+    .contact-address h2{
+        font-size: 28px;
+    }
+    .contact-address address{
+        font-size: 24px;
+    }
+    .contact-address-label{
+        font-size: 24px;
+    }
+    .contact-map{
+        flex: none;
+    }
+    .contact-form{
+        margin-top: 48px;
+        padding: 24px 16px;
+    }
+    .contact-form-heading{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .contact-form-heading h2{
+        border-right: none;
+        padding-right: 0;
+        font-size: 28px;
+    }
+    .contact-form-heading p{
+        font-size: 18px;
+    }
+    .contact-field label{
+        font-size: 18px;
+    }
+    .contact-button{
+        font-size: 20px;
+    }
+}
