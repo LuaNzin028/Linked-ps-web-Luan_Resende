@@ -1,5 +1,5 @@
 import './Feedbacks.css'
-import escrevendoImg from '../assets/images/escrevendo.jpg'
+import escrevendoImg from '../assets/images/escrevendo.webp'
 
 function Feedbacks() {
     return(

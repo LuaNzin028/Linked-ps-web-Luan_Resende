@@ -1,4 +1,4 @@
-import consutorioImg from '../assets/images/consultorio.jpg'
+import consutorioImg from '../assets/images/consultorio.webp'
 import './HeroSection.css'
 function HeroSection () {
     return(

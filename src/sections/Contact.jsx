@@ -1,4 +1,4 @@
-import mapaficticioImg from '../assets/images/mapaficticio.jpg'
+import mapaficticioImg from '../assets/images/mapaficticio.webp'
 import location from '../assets/images/location.svg'
 import marcadorImg from '../assets/images/marcador.svg'
 import { useState } from 'react'
