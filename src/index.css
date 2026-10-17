@@ -64,3 +64,12 @@ h2 {
 p {
   margin: 0;
 }
+main section[id]{
+  scroll-margin-top: 58px;
+}
+
+@media (max-width: 768px){
+  main section[id]{
+  scroll-margin-top: 140px;
+  }
+}
