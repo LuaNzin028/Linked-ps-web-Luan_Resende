@@ -83,6 +83,16 @@
     transform: translate(-50%, -100%);
 }
 
+.contact-map-marker img{
+    width: 100%;
+    display: block;
+}
+
+.contact-map-marker:focus-visible {
+    outline: 2px solid #004346;
+    outline-offset: 4px;
+}
+
 .contact-form{
     max-width: 1176px;
     margin: 96px auto 0;

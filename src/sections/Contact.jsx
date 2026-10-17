@@ -30,8 +30,10 @@ function Contact (){
                     </address>
                 </div>
                 <div className='contact-map'>   
-                    <img className='contact-map-image' src={mapaficticioImg} alt="Mapa ilustrativo da região de São João del-Rei" />
-                    <img className="contact-map-marker" src={marcadorImg} alt="" />
+                    <img className="contact-map-image" src={mapaficticioImg} alt="Mapa ilustrativo da região de São João del-Rei" />
+                    <a target="_blank" rel="noopener noreferrer" className="contact-map-marker" href="https://maps.app.goo.gl/yiH9Ea2DJmvAQ9kY7" aria-label="Localização no Google Maps">
+                        <img src={marcadorImg} alt="" />
+                    </a>
                 </div>
             </div>
             <form className='contact-form' onSubmit={handleSubmit}>
