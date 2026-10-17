@@ -257,3 +257,16 @@
         font-size: 20px;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .contact-info{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .contact-address {
+        flex: none;
+    }
+    .contact-map{
+        flex: none;
+    }
+}

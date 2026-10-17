@@ -103,7 +103,7 @@
     width: 100%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1024px){
     .hero-section{
         flex-direction: column;
     }
@@ -132,7 +132,7 @@
     }
 }
 
-@media(min-width: 769px){
+@media(min-width: 1025px){
     .hero-content{
         padding-left: 46px;
     }
